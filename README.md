@@ -7,9 +7,9 @@
 
 <h2>Send Message To Minecraft</h2>
 
-<input id="name" placeholder="Your Name"><br><br>
+<input id="Gamename" placeholder="Your Name"><br><br>
 
-<input id="message" placeholder="Message"><br><br>
+<input id="JAVA OR PE ?" placeholder="Message"><br><br>
 
 <button onclick="sendMessage()">Submit</button>
 
@@ -22,7 +22,7 @@ document.getElementById("name").value;
 const msg =
 document.getElementById("message").value;
 
-fetch("https://discord.com/api/webhooks/1550461116470272020/pTVV1d8D_JMFu6qUIwUlaBkeUpFbRxhtu-1mm8a3FoYAZlvWDuBw41iEwna6YOlQ3eMQ", {
+fetch("GO7MTU1MDQ0MjkyNDM2MDIwNDMyOAUbo.RB4BmXJHkiDTwTskYLvnRqn5VY8ZEOpYgRQyew", {
 method: "POST",
 headers: {
 "Content-Type": "application/json"
