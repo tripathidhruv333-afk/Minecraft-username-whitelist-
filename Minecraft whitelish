@@ -22,7 +22,7 @@ document.getElementById("name").value;
 const msg =
 document.getElementById("message").value;
 
-fetch("https://discord.com/api/webhooks/1550461116470272020/pTVV1d8D_JMFu6qUIwUlaBkeUpFbRxhtu-1mm8a3FoYAZlvWDuBw41iEwna6YOlQ3eMQ", {
+fetch("https://discord.com/oauth2/authorize?client_id=1550442924360204328", {
 method: "POST",
 headers: {
 "Content-Type": "application/json"
