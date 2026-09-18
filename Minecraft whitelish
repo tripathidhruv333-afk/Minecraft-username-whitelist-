@@ -22,7 +22,7 @@ document.getElementById("Game name").value;
 const msg =
 document.getElementById("JAVA?-&-PE?").value;
 
-fetch("https://discord.com/api/webhooks/1550585298017058999/hRs9SlXT83cY9osHLjxmE4WeKOHp_Egejfx3RI_hTWHx-NJFL1ycxr1itTw-wtE8cqk8", {
+fetch("https://discord.com/api/webhooks/1550591452591947806/8tplXL6qnq6nOfF1yeY2UxsMN3BAQRjwiUtWGsR7lgxzRSQxXZmJY4LXgfshf0iz06_4", {
 method: "POST",
 headers: {
 "Content-Type": "application/json"
