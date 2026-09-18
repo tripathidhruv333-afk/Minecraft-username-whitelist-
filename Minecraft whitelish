@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DON'T FORGET TO LIKE AND SUBSCRIBE PLS>
 <html>
 <head>
 <title>Minecraft Chat</title>
@@ -7,9 +7,9 @@
 
 <h2>Send Message To Minecraft</h2>
 
-<input id="name" placeholder="Game name"><br><br>
+<input id="Game name" placeholder="Game name"><br><br>
 
-<input id="message" placeholder="JAVA?-&-PE?"><br><br>
+<input id="JAVA?-&-PE?" placeholder="JAVA?-&-PE?"><br><br>
 
 <button onclick="sendMessage()">Submit</button>
 
@@ -28,7 +28,7 @@ headers: {
 "Content-Type": "application/json"
 },
 body: JSON.stringify({
-content: "[WEB] " + name + ": " + msg
+content: "[WEB] " + Game name + ": " + msg
 })
 });
 
